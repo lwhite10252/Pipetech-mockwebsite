@@ -1,0 +1,178 @@
+html {
+	background: url(../Assets/background.png) repeat;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Droid Serif', serif;
+	text-align: justify;
+	line-height: 1.5;
+	color: #494c49;
+	overflow-x: hidden;
+}
+
+body a {
+	color: #4d73a5;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: #081981;
+}
+
+#wrap {
+	height: 100%;
+	width: 100%;
+}
+
+#header {
+	height: 815px; 
+	width: 100%;
+	background: url(../Assets/headerimg.png) no-repeat; 
+	background-size: cover;
+}
+
+#header img {
+	position: relative;
+	left: 50px; 
+	top: 505px;
+}
+
+#slogan {
+	position: absolute;
+	font-family: 'Crete Round', serif;
+	color: #ffffff;
+	text-shadow: 1px 2px 7px navy;
+	font-size: 28px;
+	top: 420px;
+	left: 221px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Crete Round', serif;
+	font-size: 50px;
+	color: #081981;
+	text-transform: uppercase;
+}
+
+nav {
+	background: rgba(5,18,123,0.7);
+	width: 100%;
+	padding: 3px 0 3px 0;
+	position: absolute;
+	z-index: 1;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: medium;
+	padding-right: 30px;
+}
+
+nav li {
+	display: inline;
+	padding-left: 4%;
+}
+
+nav li:hover {
+	padding-right: 1%;
+	transition: all 1s;
+}
+
+nav a {
+	font-size: 120%;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Crete Round', serif;
+}
+
+nav a:hover {
+	color: #ff4373;
+}
+
+#about, #news, #faq, #process, #contact {
+	padding: 100px 0 100px 0;
+	margin: 0 auto;
+	width: 80%;
+}
+
+#about img, #process img {
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 20px solid white;
+}
+
+#process object {
+	float: right; 
+	display: block;
+	width: 420px;
+	height: 315px;
+	margin: 0 0 20px 20px;
+	border: 20px solid white;
+}
+
+#faq img {
+	float: right;
+	margin: 0 0 0 20px;
+	border: 20px solid white;
+}
+
+#contact {
+	background: rgba(8,25,129,0.1);
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#newsleft {
+	float: left;
+	width: 48%;
+	margin-right: 25px;
+	margin-bottom: 100px;
+}
+
+#newsright {
+	float: right;
+	width: 48%;
+	margin-left: 25px;
+	margin-bottom: 100px;
+}
+
+#newsleft img, #newsright img {
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 10px solid white;
+}
+
+.sectionimg {
+	width: 100%;
+}
+
+#footer {
+	width: 100%;
+	text-align: center;
+	clear: both;
+	position: relative;
+}
+
+#footer img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+	clear: both;
+}
+
+#copyright {
+	position: absolute;
+	color: #ffffff;
+	bottom: 80px;
+	left: 0;
+	right: 0;
+}
